@@ -1,0 +1,13 @@
+{
+  "camera_index": 0,
+  "capture_fps": 5,
+  "sensitivity": 0.08,
+  "min_seconds_between_slides": 2,
+  "telegram_bot_token": "telegram_bot_token_here", 
+  "telegram_chat_id": -5072132008,
+  "tesseract_lang": "spa",
+  "output_dir": "assets/output",
+  "enable_annotation": true,
+  "max_caption_chars": 900,
+  "admin_http_addr": ":8080"
+}
