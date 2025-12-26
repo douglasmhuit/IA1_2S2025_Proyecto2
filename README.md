@@ -1,21 +1,20 @@
 # SmartSlide
 
->Universidad de San Carlos de Guatemala  
->Facultad de Ingeniería  
->Inteligencia Artifical  
->Vacaciones Diciembre 2025
+> Universidad de San Carlos de Guatemala
+> Facultad de Ingeniería
+> Inteligencia Artifical
+> Vacaciones Diciembre 2025
 
 ### Grupo 7
 
-| Nombre | Carné |
-| --- | --- |
+
+| Nombre                      | Carné    |
+| --------------------------- | --------- |
 | Jhonatan Josué Tzunún Yax | 201900831 |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-
-
+| Aldo Saúl Vásquez Moreira | 202109754 |
+| ---                         | ---       |
+| ---                         | ---       |
+| ---                         | ---       |
 
 ## Descripción
 
@@ -23,26 +22,28 @@ SmartSlide es un sistema de captura inteligente basado en que detecta automátic
 
 ## Características
 
-| Característica | Descripción |
-|----------------|-------------|
-| **Captura Automática** | Monitoreo continuo a 5 FPS con detección de cambios |
-| **Detección Inteligente** | Algoritmo AbsDiff + Gaussian Blur + Threshold adaptativo |
-| **OCR Multilenguaje** | Tesseract con soporte español e inglés simultáneo |
-| **Resúmenes AI** | Extracción de título, bullets y top 8 keywords |
-| **Anotaciones RA** | Overlay de keywords y contornos en zonas de texto |
-| **Cooldown Inteligente** | 2 segundos entre capturas para evitar duplicados |
 
+| Característica            | Descripción                                             |
+| -------------------------- | -------------------------------------------------------- |
+| **Captura Automática**    | Monitoreo continuo a 5 FPS con detección de cambios     |
+| **Detección Inteligente** | Algoritmo AbsDiff + Gaussian Blur + Threshold adaptativo |
+| **OCR Multilenguaje**      | Tesseract con soporte español e inglés simultáneo     |
+| **Resúmenes AI**          | Extracción de título, bullets y top 8 keywords         |
+| **Anotaciones RA**         | Overlay de keywords y contornos en zonas de texto        |
+| **Cooldown Inteligente**   | 2 segundos entre capturas para evitar duplicados         |
 
 ## Tecnologías
 
-| Componente | Tecnología | Versión |
-|------------|-----------|---------|
-| **Lenguaje** | Go | 1.22 |
-| **Visión Computacional** | OpenCV (gocv) | v0.37.0 |
-| **OCR** | Tesseract (gosseract) | v2.4.1 |
-| **Bot** | Telegram Bot API | v5.5.1 |
-| **Hardware** | Raspberry Pi 4 | 4GB RAM |
-| **OS** | Raspberry Pi OS | 64-bit |
+
+| Componente                | Tecnología           | Versión |
+| ------------------------- | --------------------- | -------- |
+| **Lenguaje**              | Go                    | 1.22     |
+| **Visión Computacional** | OpenCV (gocv)         | v0.37.0  |
+| **OCR**                   | Tesseract (gosseract) | v2.4.1   |
+| **Bot**                   | Telegram Bot API      | v5.5.1   |
+| **Hardware**              | Raspberry Pi 4        | 4GB RAM  |
+| **OS**                    | Raspberry Pi OS       | 64-bit   |
+
 ---
 
 ## Documentación
