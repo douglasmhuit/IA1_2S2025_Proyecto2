@@ -15,6 +15,21 @@ type Server struct {
 	Control chan<- app.ControlState
 }
 
+func corsMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
+		w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
+
+		if r.Method == "OPTIONS" {
+			w.WriteHeader(http.StatusOK)
+			return
+		}
+
+		next.ServeHTTP(w, r)
+	})
+}
+
 func (s *Server) Routes() http.Handler {
 	mux := http.NewServeMux()
 
@@ -55,7 +70,7 @@ func (s *Server) Routes() http.Handler {
 		writeJSON(w, map[string]any{"ok": true})
 	})
 
-	return mux
+	return corsMiddleware(mux)
 }
 
 func writeJSON(w http.ResponseWriter, v any) {

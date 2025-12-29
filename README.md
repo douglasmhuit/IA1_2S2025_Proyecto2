@@ -13,7 +13,7 @@
 | Jhonatan Josué Tzunún Yax | 201900831 |
 | Aldo Saúl Vásquez Moreira | 202109754 |
 | Luis Enrique Patal Ajzac | 201408562 |
-| ---                         | ---       |
+| Douglas Josué Martínez Huit | 201708975 |
 | ---                         | ---       |
 
 ## Descripción
