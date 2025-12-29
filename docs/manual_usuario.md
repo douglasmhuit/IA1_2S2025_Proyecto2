@@ -66,3 +66,31 @@ En este repositorio los comandos disponibles se definen en `internal/telegram/bo
 - La cámara no aparece: comprobar conexión física y `raspi-config`.
 - OCR con muchos errores: mejorar iluminación, aumentar tamaño del texto o instalar paquetes de idioma de Tesseract.
 - Rendimiento lento: reducir la resolución de captura o la frecuencia de procesamiento.
+
+## Aplicacion 
+
+Se tiene una aplicacion web para monitorear y configurar el funcionamiento del sistema.
+
+### Control
+
+Esta es la pantalla principal que tendra al iniciar el sistema aqui podra iniciar/reanudar, pausar y finalizar la ejecucion del sistema, ademas de poder ver en que estado se encuentra.
+
+![control](./imgs/control.png)
+
+### Metricas
+
+Aqui podra ver algunas metricas para evaluar el funcionamiento del sistema, como: la presicion del OCR, tiempo de procesamiento promedio de una diapositiva, el porcentaje de mensajes enviados correctamente por Telegram, sensibilidad al cambio, total de diapositivas analizadas, actividad reciente, y la distribucion del tiempo que se tarda el sistema en el analisis de diapositivas.
+
+![metrics](./imgs/metrics.png)
+
+### Configuracion
+
+En este apartado puede configurar la cantidad de fotogramas por segundo que se desean tomar, la sensibilidad para la deteccion de texto, el grupo o chat de telegram al que queremos que se envien los mensajes y el lenguaje que deseamos que reconozca.
+
+![confs](./imgs/configuration.png)
+
+### Logs
+
+Aqui podemos ver mensajes sobre errores, advertencias y alguna informacion importante, se puede buscar logs especificos y filtrar entre los tipos de logs.
+
+![logs](./imgs/logs.png)

@@ -14,7 +14,7 @@
 | Aldo Saúl Vásquez Moreira | 202109754 |
 | Luis Enrique Patal Ajzac | 201408562 |
 | Douglas Josué Martínez Huit | 201708975 |
-| ---                         | ---       |
+| Juan Pascual Itzep Coguox   | 202202161 |
 
 ## Descripción
 
